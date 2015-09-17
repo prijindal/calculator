@@ -1,0 +1,66 @@
+body {
+  -webkit-app-region: drag;
+  background: #1b1c1d;
+}
+
+a,button {
+  -webkit-app-region: no-drag
+}
+
+.ui.grid.main-container > .row {
+  padding: 0;
+  width: 100%;
+}
+.ui.grid.main-container > .row.menu-container {
+  padding-bottom: 1rem;
+}
+
+.menu-container > .ui.segment {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 100%;
+  padding:0.5rem 1rem;
+}
+
+.menu-container > .ui.segment .menu{
+  min-height: 1rem;
+}
+.ui.secondary.inverted.pointing.menu .item {
+  padding: 0.5rem 0.7145714em;
+}
+.huge.input {
+  width: 90%;
+}
+.huge.input input {
+  text-align: right;
+}
+.huge.input input[disabled] {
+  opacity: 1;
+}
+.ui.grid.controls {
+  width: 90%;
+  margin-top: 0;
+}
+.ui.grid.controls .ui.segment {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.ui.grid.controls .ui.segment:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.ui.grid.controls .ui.segment:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.ui.grid.controls button {
+  width: 100%;
+}
+.ui.segment.right {
+  justify-content: flex-end;
+}
+
+.icon.text {
+  font-weight: bold;
+}
