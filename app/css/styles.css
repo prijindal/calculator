@@ -30,6 +30,9 @@ a,button {
 }
 .huge.input {
   width: 90%;
+  position: absolute;
+  top: 0;
+  left: 5%;
 }
 .huge.input input {
   text-align: right;
@@ -63,4 +66,16 @@ a,button {
 
 .icon.text {
   font-weight: bold;
+}
+
+.result-container {
+  max-height: 53.5px;
+  min-height: 53.5px;
+}
+
+.huge.input .sample {
+  position: inherit;
+  font-size: 20px;
+  right: 21px;
+  top:18px;
 }
