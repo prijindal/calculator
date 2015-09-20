@@ -4,7 +4,7 @@ var ipc = require('ipc')
 
 app.on('ready', function() {
     var MainWindow = new BrowserWindow({
-        width:320,
+        width:640,
         height:440,
         frame:false
     })
@@ -15,7 +15,6 @@ app.on('ready', function() {
     // })
 
     MainWindow.loadUrl('file://'+__dirname+'/app/index.html')
-
 
     ipc.on('closeWindow', function() {
         console.log('Closing')

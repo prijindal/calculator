@@ -79,3 +79,11 @@ a,button {
   right: 21px;
   top:18px;
 }
+
+.ui.grid.controls.basic {
+  max-width: 320px;
+}
+
+.ui.grid.controls.scientific {
+  max-width: 540px;
+}
