@@ -1,7 +1,7 @@
 # Calculator
 A simple Calculator app made using electron engine
 
-![Calculator](img/screenshot.png)
+![Calculator](img/screenshot.PNG)
 
 To build
 ```
