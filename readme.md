@@ -1,6 +1,8 @@
 # Calculator
 A simple Calculator app made using electron engine
 
+![Calculator](img/screenshot.png)
+
 To build
 ```
 npm install
